@@ -1,0 +1,51 @@
+@import '../../root.css';
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* background-color: rgb(42, 97, 78); */
+}
+
+.hero-info-container {
+    /* background-color: aliceblue; */
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.hero-info-container-row {
+    /* background-color: rgb(150, 32, 140); */
+    height: 100%;
+    /* flex:1; */
+
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 2px solid #3498db; 
+}
+
+.delivery{
+    max-width: 100%;
+    min-height: 15vh;
+    background-color: var(--four);
+    display:flex;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+
+.sweets-section {
+
+}
+
+.CTA-section {
+    background-color: var(--three);
+}
+
+
+

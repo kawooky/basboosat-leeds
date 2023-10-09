@@ -1,0 +1,8 @@
+@import '../../root.css';
+
+.footer.col {
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: left; */
+    text-align: left;
+}
