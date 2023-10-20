@@ -1,8 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import logo from "/Users/youssefkawook/Desktop/Software Development/Projects/bakery-website/src/logo.png";
-import { MyNavbar } from "../Navbar/MyNavbar";
 import styles from "./Home.module.css";
 import { CardDeck, Card } from "react-bootstrap";
 
@@ -10,7 +8,6 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <section className={styles.hero}>
-        <MyNavbar />
         <Container className={styles["hero-info-container"]}>
           <Row className={styles["hero-info-container-row"]}>
             <Col md={6}>
@@ -25,7 +22,6 @@ export const Home = () => {
                 <Col md={4}>
                   <Button
                     className="btn btn-primary btn-lg mb-2"
-                    stu
                     variant="primary"
                     href="#features"
                   >
@@ -50,7 +46,7 @@ export const Home = () => {
 
       <section className={styles.delivery}>
         <Container>
-          <Row d-flex align-items-center justify-content-center>
+          <Row className="d-flex align-items-center justify-content-center">
             <Col md={9}>
               <h2>FREE DELIVERY to all address within Leeds!</h2>
             </Col>
@@ -69,12 +65,12 @@ export const Home = () => {
 
       <section className={styles["sweets-section"]}>
         <Container className="py-4">
-          <Row d-flex align-items-center justify-content-center>
+          <Row className="d-flex align-items-center justify-content-center">
             <h1>The Sweets</h1>
           </Row>
           <Row>
             <Col md={4}>
-              <Card>
+              <Card >
                 <Card.Img
                   variant="top"
                   src="https://via.placeholder.com/150"
@@ -85,7 +81,6 @@ export const Home = () => {
                   <Card.Text>This is the content of Card 1.</Card.Text>
                   <Button
                     className="btn btn-primary btn-lg mb-2"
-                    stu
                     variant="primary"
                     href="#features"
                   >
@@ -106,7 +101,6 @@ export const Home = () => {
                   <Card.Text>This is the content of Card 2.</Card.Text>
                   <Button
                     className="btn btn-primary btn-lg mb-2"
-                    stu
                     variant="primary"
                     href="#features"
                   >
@@ -127,7 +121,6 @@ export const Home = () => {
                   <Card.Text>This is the content of Card 3.</Card.Text>
                   <Button
                     className="btn btn-primary btn-lg mb-2"
-                    stu
                     variant="primary"
                     href="#features"
                   >
@@ -159,7 +152,6 @@ export const Home = () => {
             <Col md={3}>
               <Button
                 className="btn btn-primary btn-lg mb-2"
-                stu
                 variant="primary"
                 href="#features"
               >

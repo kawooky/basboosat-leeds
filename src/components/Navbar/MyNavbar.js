@@ -20,10 +20,13 @@ export const MyNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link className='larger-text' href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link className='larger-text' href="/Home">Home</Nav.Link>
+          <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/Menu">Menu</Nav.Link>
+          <Nav.Link href="/Delivery">Delivery</Nav.Link>
+          <Nav.Link href="/FAQ">FAQ</Nav.Link>
+          <Nav.Link href="/Contact">Contact</Nav.Link>
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>
