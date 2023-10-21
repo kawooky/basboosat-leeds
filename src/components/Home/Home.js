@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import styles from "./Home.module.css";
 import { CardDeck, Card } from "react-bootstrap";
+import { CTA } from "../CTA/CTA";
+import { SweetsBar } from "../SweetsBar/SweetsBar";
+import { sweetsInfoArray } from "../../sweetsInfoArray";
 
 export const Home = () => {
   return (
@@ -23,9 +26,9 @@ export const Home = () => {
                   <Button
                     className="btn btn-primary btn-lg mb-2"
                     variant="primary"
-                    href="#features"
+                    href="/Menu"
                   >
-                    Learn More
+                    Menu
                   </Button>
                 </Col>
 
@@ -33,9 +36,9 @@ export const Home = () => {
                   <Button
                     className="btn btn-primary btn-lg mb-2"
                     variant="primary"
-                    href="#features"
+                    href="/Contact"
                   >
-                    Learn More
+                    Contact
                   </Button>
                 </Col>
               </Row>
@@ -63,120 +66,11 @@ export const Home = () => {
         </Container>
       </section>
 
-      <section className={styles["sweets-section"]}>
-        <Container className="py-4">
-          <Row className="d-flex align-items-center justify-content-center">
-            <h1>The Sweets</h1>
-          </Row>
-          <Row>
-            <Col md={4}>
-              <Card >
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/150"
-                  alt="Card Image"
-                />
-                <Card.Body>
-                  <Card.Title>Card 1</Card.Title>
-                  <Card.Text>This is the content of Card 1.</Card.Text>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                    href="#features"
-                  >
-                    Learn More
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/150"
-                  alt="Card Image"
-                />
-                <Card.Body>
-                  <Card.Title>Card 1</Card.Title>
-                  <Card.Text>This is the content of Card 2.</Card.Text>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                    href="#features"
-                  >
-                    Learn More
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={4}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://via.placeholder.com/150"
-                  alt="Card Image"
-                />
-                <Card.Body>
-                  <Card.Title>Card 1</Card.Title>
-                  <Card.Text>This is the content of Card 3.</Card.Text>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                    href="#features"
-                  >
-                    Learn More
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <SweetsBar headerText={'The Sweets'} anySweetsInfoArray={sweetsInfoArray} />
 
-      <section className={styles["CTA-section"]}>
-        <Container className="py-4">
-          <Row className="d-flex align-items-center justify-content-center">
-            <Col md={8}>
-              <h2>Indulge in the Rich Flavors of the Middle East!</h2>
-            </Col>
-          </Row>
+      <CTA />
 
-          <Row>
-            <h3>
-              Explore our delectable collection of authentic Middle Eastern
-              cakes and pastries. Order now and experience the sweet essence of
-              the Middle East delivered right to your doorstep
-            </h3>
-          </Row>
-          <Row className="d-flex align-items-center justify-content-center">
-            <Col md={3}>
-              <Button
-                className="btn btn-primary btn-lg mb-2"
-                variant="primary"
-                href="#features"
-              >
-                Learn More
-              </Button>
-            </Col>
-
-            <Col md={3}>
-              <Button
-                className="btn btn-primary btn-lg mb-2"
-                variant="primary"
-                href="#features"
-              >
-
-                Learn More
-              </Button>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-
-      <section>
-
-      </section>
+      <section></section>
     </div>
   );
 };
