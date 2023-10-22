@@ -1,6 +1,22 @@
 @import '../../root.css';
 
 
+.main{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: rgb(173, 163, 149);
+    flex: 1;
+    box-sizing: border-box;
+}
+
+
+
 
 
 

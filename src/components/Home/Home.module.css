@@ -10,16 +10,13 @@
 }
 
 .hero-info-container {
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     flex: 1;
     box-sizing: border-box;
 }
 
 .hero-info-container-row {
-    /* background-color: rgb(150, 32, 140); */
     height: 100%;
-    /* flex:1; */
-
     align-items: center; 
     justify-content: center;
     box-sizing: border-box;
@@ -43,12 +40,5 @@
 
 }
 
-.CTA-section {
-    background-color: var(--three);
-}
 
-
-.sweets-section Card {
-    border: none;
-}
 

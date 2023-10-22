@@ -4,3 +4,14 @@
 
 
 
+.phone-col {
+    background-color: var(--two);
+    
+ }
+
+.email-col {
+    background-color: var(--three);
+ }
+
+
+

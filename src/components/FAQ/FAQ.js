@@ -1,15 +1,33 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import styles from "./FAQ.module.css";
-
-
-
+import {
+  Container,
+  Row,
+  Accordion,
+} from "react-bootstrap";
+import { FAQarray } from "./FAQarray";
+import { CTA } from "../CTA/CTA";
 
 export const FAQ = () => {
-    return (
-        <div className={styles.faq}>
-            <h1>FAQ</h1>
+  return (
+    <div>
+      <Container>
+        <Row className="py-4">
+          <h1>Frequently Asked Questions</h1>
+        </Row>
+        <Accordion className='pb-4'>
+          {FAQarray.map((faq, index) => {
+            return (
+              <Accordion.Item eventKey={index.toString()} key={index}>
+                <Accordion.Header>{faq.question}</Accordion.Header>
+                <Accordion.Body>{faq.answer}</Accordion.Body>
+              </Accordion.Item>
+            );
+          })}
+        </Accordion>
+      </Container>
 
-        </div>
-    )}
+      <CTA />
+    </div>
+  );
+};
