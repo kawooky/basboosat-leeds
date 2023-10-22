@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from "/Users/youssefkawook/Desktop/Software Development/Projects/bakery-website/src/images/Basboosat Leeds-logos_black.png";
+import logo from "../../images/Basboosat Leeds-logos_black.png";
 import styles from './MyNavbar.module.css'
 
 export const MyNavbar = () => {

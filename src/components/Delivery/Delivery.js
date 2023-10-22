@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import styles from "./Delivery.module.css";
-import mapOfLeedsImage from "/Users/youssefkawook/Desktop/Software Development/Projects/bakery-website/src/images/map-of-leeds.jpg";
+import mapOfLeedsImage from "../../images/map-of-leeds.jpg";;
 
 export const Delivery = () => {
   return (
