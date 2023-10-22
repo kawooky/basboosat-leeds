@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/basboosat-leeds/static/css/main.391404e6.css",
+    "main.js": "/basboosat-leeds/static/js/main.81e08429.js",
+    "static/js/787.4f8bceeb.chunk.js": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js",
+    "static/media/contact-us-image.jpg": "/basboosat-leeds/static/media/contact-us-image.87ee731c21461c12442e.jpg",
+    "static/media/map-of-leeds.jpg": "/basboosat-leeds/static/media/map-of-leeds.632603403e8d51767ff2.jpg",
+    "static/media/logo.png": "/basboosat-leeds/static/media/logo.457a6b4ead8af39e6c56.png",
+    "static/media/Basboosat Leeds-logos_black.png": "/basboosat-leeds/static/media/Basboosat Leeds-logos_black.26d5920f4e441b2fdb20.png",
+    "index.html": "/basboosat-leeds/index.html",
+    "main.391404e6.css.map": "/basboosat-leeds/static/css/main.391404e6.css.map",
+    "main.81e08429.js.map": "/basboosat-leeds/static/js/main.81e08429.js.map",
+    "787.4f8bceeb.chunk.js.map": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.391404e6.css",
+    "static/js/main.81e08429.js"
+  ]
+}
