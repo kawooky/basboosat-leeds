@@ -8,6 +8,7 @@ import { sweetsInfoArray } from "../../sweetsInfoArray";
 import { useParams } from "react-router-dom";
 import { CTA } from "../CTA/CTA";
 import { SweetsBar } from "../SweetsBar/SweetsBar";
+import { Link } from "react-router-dom";
 
 export const SingleSweet = () => {
   const { sweetName } = useParams();
@@ -37,13 +38,11 @@ export const SingleSweet = () => {
             <h3>{selectedSweetInfo.description}</h3>
             <p>Ingredients: {selectedSweetInfo.ingredients}</p>
             <h3>{selectedSweetInfo.price}</h3>
-            <Button
-              className="btn btn-primary btn-lg mb-2"
-              variant="primary"
-              href="/Contact"
-            >
-              Contact
-            </Button>
+            <Link to="/Contact">
+              <Button className="btn btn-primary btn-lg mb-2" variant="primary">
+                Contact
+              </Button>
+            </Link>
           </Col>
         </Row>
       </Container>

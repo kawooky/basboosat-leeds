@@ -6,6 +6,7 @@ import { CardDeck, Card } from "react-bootstrap";
 import { CTA } from "../CTA/CTA";
 import { SweetsBar } from "../SweetsBar/SweetsBar";
 import { sweetsInfoArray } from "../../sweetsInfoArray";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -23,23 +24,26 @@ export const Home = () => {
               </p>
               <Row className="d-flex align-items-center justify-content-center">
                 <Col md={4}>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                    href="/Menu"
-                  >
-                    Menu
-                  </Button>
+                  <Link to="/Menu">
+                    <Button
+                      className="btn btn-primary btn-lg mb-2"
+                      variant="primary"
+                      href="/Menu"
+                    >
+                      Menu
+                    </Button>
+                  </Link>
                 </Col>
 
                 <Col md={4}>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                    href="/Contact"
-                  >
-                    Contact
-                  </Button>
+                  <Link to="/Contact">
+                    <Button
+                      className="btn btn-primary btn-lg mb-2"
+                      variant="primary"
+                    >
+                      Contact
+                    </Button>
+                  </Link>
                 </Col>
               </Row>
             </Col>
@@ -54,19 +58,23 @@ export const Home = () => {
               <h2>FREE DELIVERY to all address within Leeds!</h2>
             </Col>
             <Col md={3}>
-              <Button
-                className="btn btn-primary btn-lg "
-                variant="primary"
-                href="/Delivery"
-              >
-                Delivery
-              </Button>
+            <Link to='/Delivery'>
+                  <Button
+                    className="btn btn-primary btn-lg mb-2"
+                    variant="primary"
+                  >
+                    Delivery
+                  </Button>
+                  </Link>
             </Col>
           </Row>
         </Container>
       </section>
 
-      <SweetsBar headerText={'The Sweets'} anySweetsInfoArray={sweetsInfoArray} />
+      <SweetsBar
+        headerText={"The Sweets"}
+        anySweetsInfoArray={sweetsInfoArray}
+      />
 
       <CTA />
 
