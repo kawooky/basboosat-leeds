@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, Button } from "react-bootstrap";
 import styles from "./SweetBarCard.module.css";
+import { Link } from "react-router-dom";
 
 export const SweetBarCard = ({ name, description, image }) => {
   return (
@@ -15,13 +16,15 @@ export const SweetBarCard = ({ name, description, image }) => {
       <Card.Body className="text-center">
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Button
-          className="btn btn-primary btn-lg mb-2"
-          variant="primary"
-          href={`/Menu/${name}`}
-        >
-          View
-        </Button>
+        
+        <Link to={`/Menu/${name}`}>
+          <Button
+            className="btn btn-primary btn-lg mb-2"
+            variant="primary"
+          >
+            View
+          </Button>
+        </Link>
       </Card.Body>
     </Card>
   );
