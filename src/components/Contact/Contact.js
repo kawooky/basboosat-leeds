@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import styles from "./Contact.module.css";
-import contactUsImage from "/Users/youssefkawook/Desktop/Software Development/Projects/bakery-website/src/images/contact-us-image.jpg";
+import contactUsImage from "../../images/contact-us-image.jpg";
 import { AiOutlinePhone } from "react-icons/ai";
 import { MdAlternateEmail } from "react-icons/md";
 
@@ -17,8 +17,8 @@ export const Contact = () => {
         <Row>
           <Col md={6} className={`py-5 ${styles["phone-col"]}`}>
             <h3>Preferred Method</h3>
-            <h4>
-              <AiOutlinePhone /> +447803555789
+            <h4 >
+              <AiOutlinePhone />+447803555789
             </h4>
           </Col>
           <Col md={6} className={`py-5 ${styles["email-col"]}`}>
