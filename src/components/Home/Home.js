@@ -57,9 +57,9 @@ export const Home = () => {
               <Button
                 className="btn btn-primary btn-lg "
                 variant="primary"
-                href="#features"
+                href="/Delivery"
               >
-                Learn More
+                Delivery
               </Button>
             </Col>
           </Row>

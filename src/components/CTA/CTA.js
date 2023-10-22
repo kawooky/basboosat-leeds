@@ -17,11 +17,11 @@ export const CTA = () => {
           </Row>
 
           <Row>
-            <h3>
+            <h4>
               Explore our delectable collection of authentic Middle Eastern
               cakes and pastries. Order now and experience the sweet essence of
               the Middle East delivered right to your doorstep
-            </h3>
+            </h4>
           </Row>
           <Row className="d-flex align-items-center justify-content-center">
             <Col md={3}>
@@ -30,7 +30,7 @@ export const CTA = () => {
                 variant="primary"
                 href="#features"
               >
-                Learn More
+                Menu
               </Button>
             </Col>
 
@@ -41,7 +41,7 @@ export const CTA = () => {
                 href="#features"
               >
 
-                Learn More
+                Contact
               </Button>
             </Col>
           </Row>
