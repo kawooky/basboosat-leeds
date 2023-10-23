@@ -14,7 +14,7 @@ export const Home = () => {
       <section className={styles.hero}>
         <Container className={styles["hero-info-container"]}>
           <Row className={styles["hero-info-container-row"]}>
-            <Col md={6}>
+            <Col md={6} className="text-center">
               <h1>
                 Freshly Baked Middle Eastern Sweets delivered to your door.
               </h1>

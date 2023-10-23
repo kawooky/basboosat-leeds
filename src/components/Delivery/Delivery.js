@@ -8,7 +8,7 @@ export const Delivery = () => {
   return (
     <div className={styles.delivery}>
       <Container className={styles["delivery-main-container"]}>
-        <Row className="py-4" styles={styles["hero-info-container-row"]}>
+        <Row className="py-4 text-center" styles={styles["hero-info-container-row"]}>
           <Col md={6}>
             <img
               src={mapOfLeedsImage}

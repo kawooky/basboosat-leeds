@@ -12,7 +12,7 @@ export const FAQ = () => {
   return (
     <div>
       <Container>
-        <Row className="py-4">
+        <Row className="py-4 text-center">
           <h1>Frequently Asked Questions</h1>
         </Row>
         <Accordion className='pb-4'>

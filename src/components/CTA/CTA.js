@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const CTA = () => {
   return (
     <section className={styles["CTA"]}>
-      <Container className="py-4">
+      <Container className="py-4 text-center">
         <Row className="d-flex align-items-center justify-content-center">
           <Col md={8}>
             <h2>Indulge in the Rich Flavors of the Middle East!</h2>

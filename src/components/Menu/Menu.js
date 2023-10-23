@@ -11,8 +11,8 @@ export const Menu = () => {
     <div className={styles.menu}>
       <section className={styles.main}>
         <Container className={styles["main-container"]}>
-          <Row className="d-flex align-items-center justify-content-center h-100">
-            <Col md={6}>
+          <Row className="d-flex align-items-center justify-content-center  h-100">
+            <Col md={6} className="text-center">
               <h1>Refined simplicity.</h1>
             </Col>
           </Row>

@@ -11,7 +11,7 @@ export const SweetsBar = ({ headerText, anySweetsInfoArray }) => {
   return (
     <section className={styles["sweets-bar"]}>
       <Container className="py-4">
-        <Row className="d-flex align-items-center justify-content-center">
+        <Row className="d-flex align-items-center justify-content-center text-center">
           <h1>{headerText}</h1>
         </Row>
 

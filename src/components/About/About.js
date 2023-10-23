@@ -41,7 +41,7 @@ export const About = () => {
           <Col md={6} className="d-flex justify-content-center">
             <Image
               fluid
-              src="https://via.placeholder.com/500"
+              src="https://via.placeholder.com/600"
               alt="place holder"
             />
           </Col>
@@ -64,7 +64,7 @@ export const About = () => {
           <Col md={6} className="d-flex justify-content-center">
             <Image
               fluid
-              src="https://via.placeholder.com/500"
+              src="https://via.placeholder.com/600"
               alt="place holder"
             />
           </Col>
@@ -94,7 +94,7 @@ export const About = () => {
           <Col md={6} className="d-flex justify-content-center">
             <Image
               fluid
-              src="https://via.placeholder.com/500"
+              src="https://via.placeholder.com/600"
               alt="place holder"
             />
           </Col>
