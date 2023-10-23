@@ -13,23 +13,29 @@ import { Delivery } from "./components/Delivery/Delivery";
 import { FAQ } from "./components/FAQ/FAQ";
 import { SingleSweet } from "./components/SingleSweet/SingleSweet";
 import { ScrollToTop } from "./ScrollToTop";
+import { Helmet } from "react-helmet";
 
 const App = () => {
   return (
     <div className="App">
-        <ScrollToTop/>
+      <Helmet>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet"/>
+
+
+      </Helmet>
+      <ScrollToTop />
       <MyNavbar />
       <Routes>
-          <Route path="/" element={<Navigate replace to="/Home" />} />
-          <Route path="/Home" element={<Home />}></Route>
-          <Route path="/About" element={<About />}></Route>
-          <Route path="/Menu" element={<Menu />}></Route>
+        <Route path="/" element={<Navigate replace to="/Home" />} />
+        <Route path="/Home" element={<Home />}></Route>
+        <Route path="/About" element={<About />}></Route>
+        <Route path="/Menu" element={<Menu />}></Route>
 
-          <Route path="/Menu/:sweetName" element={<SingleSweet />}></Route>
+        <Route path="/Menu/:sweetName" element={<SingleSweet />}></Route>
 
-          <Route path="/Delivery" element={<Delivery />}></Route>
-          <Route path="/FAQ" element={<FAQ />}></Route>
-          <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/Delivery" element={<Delivery />}></Route>
+        <Route path="/FAQ" element={<FAQ />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
 
       <Footer />

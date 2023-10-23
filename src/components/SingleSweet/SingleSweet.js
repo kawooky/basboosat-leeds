@@ -33,7 +33,7 @@ export const SingleSweet = () => {
               })}
             </Carousel>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="d-flex flex-column justify-content-start align-items-start">
             <h1>{selectedSweetInfo.name}</h1>
             <h3>{selectedSweetInfo.description}</h3>
             <p>Ingredients: {selectedSweetInfo.ingredients}</p>

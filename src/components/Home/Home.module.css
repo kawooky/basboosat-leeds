@@ -10,7 +10,7 @@
 }
 
 .hero-info-container {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     flex: 1;
     box-sizing: border-box;
 }
