@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/basboosat-leeds/static/css/main.9e047da1.css",
-    "main.js": "/basboosat-leeds/static/js/main.86a2460e.js",
+    "main.css": "/basboosat-leeds/static/css/main.55ba5c15.css",
+    "main.js": "/basboosat-leeds/static/js/main.f279cca2.js",
     "static/js/787.4f8bceeb.chunk.js": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js",
+    "static/media/baking-cookies-video.mp4": "/basboosat-leeds/static/media/baking-cookies-video.f2858f7fd1e99e56a3ac.mp4",
     "static/media/contact-us-image.jpg": "/basboosat-leeds/static/media/contact-us-image.87ee731c21461c12442e.jpg",
+    "static/media/menu-image.jpg": "/basboosat-leeds/static/media/menu-image.9f941516a1aff1eed838.jpg",
     "static/media/map-of-leeds.jpg": "/basboosat-leeds/static/media/map-of-leeds.632603403e8d51767ff2.jpg",
     "static/media/logo.png": "/basboosat-leeds/static/media/logo.457a6b4ead8af39e6c56.png",
-    "static/media/Basboosat Leeds-logos_black.png": "/basboosat-leeds/static/media/Basboosat Leeds-logos_black.26d5920f4e441b2fdb20.png",
+    "static/media/logo-white.png": "/basboosat-leeds/static/media/logo-white.fae4224a5895b833dd35.png",
+    "static/media/logo-black.png": "/basboosat-leeds/static/media/logo-black.26d5920f4e441b2fdb20.png",
     "index.html": "/basboosat-leeds/index.html",
-    "main.9e047da1.css.map": "/basboosat-leeds/static/css/main.9e047da1.css.map",
-    "main.86a2460e.js.map": "/basboosat-leeds/static/js/main.86a2460e.js.map",
+    "main.55ba5c15.css.map": "/basboosat-leeds/static/css/main.55ba5c15.css.map",
+    "main.f279cca2.js.map": "/basboosat-leeds/static/js/main.f279cca2.js.map",
     "787.4f8bceeb.chunk.js.map": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e047da1.css",
-    "static/js/main.86a2460e.js"
+    "static/css/main.55ba5c15.css",
+    "static/js/main.f279cca2.js"
   ]
 }
