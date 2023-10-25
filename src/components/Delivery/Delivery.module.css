@@ -2,5 +2,10 @@
 
 
 
-
+.hero-row {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    /* background-color: rgb(86, 48, 175); */
+}
 

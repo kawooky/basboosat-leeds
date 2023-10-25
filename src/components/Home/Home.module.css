@@ -1,18 +1,22 @@
 @import '../../root.css';
 
+.home {
+    box-sizing: border-box;
+}
+
+
 .hero {
-    height: 100vh;
+    height: 92vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    /* background-color: rgb(42, 97, 78); */
 }
 
 .hero-info-container {
-    /* background-color: aliceblue; */
     flex: 1;
     box-sizing: border-box;
+
 }
 
 .hero-info-container-row {
@@ -20,7 +24,13 @@
     align-items: center; 
     justify-content: center;
     box-sizing: border-box;
+    color: var(--two);
 }
+
+.buttons {
+    width: 110px
+}
+
 
 .border {
     border: 2px solid #3498db; 
@@ -36,9 +46,14 @@
 }
 
 
-.sweets-section {
-
-}
-
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other elements */
+  }
 
 

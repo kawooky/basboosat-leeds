@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import styles from "./Contact.module.css";
-import contactUsImage from "../../images/contact-us-image.jpg";
+import contactUsImage from "../../Media/contact-us-image.jpg";
 import { AiOutlinePhone } from "react-icons/ai";
 import { MdAlternateEmail } from "react-icons/md";
 

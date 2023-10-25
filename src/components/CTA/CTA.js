@@ -22,17 +22,20 @@ export const CTA = () => {
           </h4>
         </Row>
         <Row className="d-flex align-items-center justify-content-center">
-          <Col md={3}>
+          <Col >
             <Link to="/Menu">
-              <Button className="btn btn-primary btn-lg mb-2" variant="primary">
+              <Button
+                className={`mx-4 btn btn-primary btn-lg ${styles.buttons}`}
+                variant="primary"
+              >
                 Menu
               </Button>
             </Link>
-          </Col>
-
-          <Col md={3}>
-          <Link to="/Contact">
-              <Button className="btn btn-primary btn-lg mb-2" variant="primary">
+            <Link to="/Contact">
+              <Button
+                className={`mx-4 btn btn-primary btn-lg ${styles.buttons}`}
+                variant="primary"
+              >
                 Contact
               </Button>
             </Link>

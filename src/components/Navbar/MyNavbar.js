@@ -2,12 +2,12 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
-import logo from "../../images/Basboosat Leeds-logos_black.png";
+import logo from "../../Media/logo-black.png";
 import styles from "./MyNavbar.module.css";
-
+// `${styles.MyNavbar} ${styles['custom-navbar']}`
 export const MyNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg" className="p-4">
+    <Navbar expand="lg" bg='light' className='p-4 text-center'>
       <Link to="/Home">
         <Navbar.Brand>
           <img

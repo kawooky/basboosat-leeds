@@ -11,7 +11,7 @@ export const About = () => {
     <div className={styles.about}>
       <Container>
         <Row className="py-4 align-items-center justify-content-center text-center">
-          <Col md={6}>
+          <Col md={8}>
             <h1>Our Story</h1>
             <h5>
               Welcome to Basboosat Leeds, where the flavors of the Middle East
