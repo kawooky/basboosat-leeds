@@ -12,5 +12,5 @@ This was my first time using Bootstrap and I loved it. In previous projects, for
 After cloning the repository to your local device, in the project directory, you can run 'npm start' which runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Alternatively, you can view the site at https://kawooky.github.io/basboosat-leeds/Home
+Alternatively, you can view the site at https://kawooky.github.io/basboosat-leeds/
 
