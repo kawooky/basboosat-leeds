@@ -9,20 +9,22 @@ export const CTA = () => {
     <section className={styles["CTA"]}>
       <Container className="py-4 text-center">
         <Row className="d-flex align-items-center justify-content-center">
-          <Col md={8}>
+          <Col md={12}>
             <h2>Indulge in the Rich Flavors of the Middle East!</h2>
           </Col>
         </Row>
 
         <Row>
-          <h4>
-            Explore our delectable collection of authentic Middle Eastern cakes
-            and pastries. Order now and experience the sweet essence of the
-            Middle East delivered right to your doorstep
-          </h4>
+          <h5>
+            Elevate your dessert experience with our rich and moist delicacy.
+            Order now for a taste of authentic Middle Eastern sweetness
+            delivered to your doorstep. Satisfy your cravings and treat yourself
+            to the perfect blend of tradition and flavor. Shop now and savor the
+            sweetness!
+          </h5>
         </Row>
         <Row className="d-flex align-items-center justify-content-center">
-          <Col >
+          <Col>
             <Link to="/Menu">
               <Button
                 className={`mx-4 btn btn-primary btn-lg ${styles.buttons}`}

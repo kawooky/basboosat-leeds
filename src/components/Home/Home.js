@@ -14,11 +14,11 @@ export const Home = () => {
     <div className={styles.home}>
       <section className={styles.hero}>
         <Container fluid className={styles["hero-info-container"]}>
-          <video className={styles["background-video"]} autoPlay loop muted>
-            <source src={bakingVideo} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <Row className={styles["hero-info-container-row"]}>
+          <Row className={`fluid ${styles["hero-info-container-row"]}`}>
+            <video className={styles["background-video"]} autoPlay loop muted>
+              <source src={bakingVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <Col md={6} className="text-center">
               <h1>
                 Freshly Baked Middle Eastern Sweets delivered to your door.
