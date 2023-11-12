@@ -1,6 +1,13 @@
 @import '../../root.css';
 
+.hero {
+    background-color: var(--three);
+}
 
-
-
+.hero-row {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background-color: var;
+}
 

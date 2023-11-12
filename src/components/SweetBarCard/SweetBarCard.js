@@ -16,10 +16,10 @@ export const SweetBarCard = ({ name, description, image }) => {
       <Card.Body className="text-center">
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        
+
         <Link to={`/Menu/${name}`}>
           <Button
-            className="btn btn-primary btn-lg mb-2"
+            className={`btn btn-primary btn-lg ${styles.buttons}`}
             variant="primary"
           >
             View

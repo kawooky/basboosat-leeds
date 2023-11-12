@@ -7,32 +7,37 @@ import { Link } from "react-router-dom";
 export const CTA = () => {
   return (
     <section className={styles["CTA"]}>
-      <Container className="py-4">
+      <Container className="py-4 text-center">
         <Row className="d-flex align-items-center justify-content-center">
-          <Col md={8}>
+          <Col md={12}>
             <h2>Indulge in the Rich Flavors of the Middle East!</h2>
           </Col>
         </Row>
 
         <Row>
-          <h4>
-            Explore our delectable collection of authentic Middle Eastern cakes
-            and pastries. Order now and experience the sweet essence of the
-            Middle East delivered right to your doorstep
-          </h4>
+          <h5>
+            Elevate your dessert experience with our rich and moist delicacy.
+            Order now for a taste of authentic Middle Eastern sweetness
+            delivered to your doorstep. Satisfy your cravings and treat yourself
+            to the perfect blend of tradition and flavor. Shop now and savor the
+            sweetness!
+          </h5>
         </Row>
         <Row className="d-flex align-items-center justify-content-center">
-          <Col md={3}>
+          <Col>
             <Link to="/Menu">
-              <Button className="btn btn-primary btn-lg mb-2" variant="primary">
+              <Button
+                className={`mx-4 btn btn-primary btn-lg ${styles.buttons}`}
+                variant="primary"
+              >
                 Menu
               </Button>
             </Link>
-          </Col>
-
-          <Col md={3}>
-          <Link to="/Contact">
-              <Button className="btn btn-primary btn-lg mb-2" variant="primary">
+            <Link to="/Contact">
+              <Button
+                className={`mx-4 btn btn-primary btn-lg ${styles.buttons}`}
+                variant="primary"
+              >
                 Contact
               </Button>
             </Link>

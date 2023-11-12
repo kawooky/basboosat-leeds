@@ -1,6 +1,19 @@
 @import '../../root.css';
 
+.hero {
+    height: 60vh;
+}
 
 
 
+.secondary {
+    background-color: var(--four);
+}
 
+
+.separator {
+    display: flex;
+    align-items: center;
+    background-color: var(--two);
+    min-height: 30vh;
+}

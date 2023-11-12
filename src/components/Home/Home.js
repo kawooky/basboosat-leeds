@@ -7,39 +7,43 @@ import { CTA } from "../CTA/CTA";
 import { SweetsBar } from "../SweetsBar/SweetsBar";
 import { sweetsInfoArray } from "../../sweetsInfoArray";
 import { Link } from "react-router-dom";
+import bakingVideo from "../../Media/baking-cookies-video.mp4";
 
 export const Home = () => {
   return (
     <div className={styles.home}>
       <section className={styles.hero}>
-        <Container className={styles["hero-info-container"]}>
-          <Row className={styles["hero-info-container-row"]}>
-            <Col md={6}>
+        <Container fluid className={styles["hero-info-container"]}>
+          <Row className={`fluid ${styles["hero-info-container-row"]}`}>
+            <video className={styles["background-video"]} autoPlay loop muted>
+              <source src={bakingVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <Col md={6} className="text-center">
               <h1>
                 Freshly Baked Middle Eastern Sweets delivered to your door.
               </h1>
-              <p>
+              <h5>
                 We are committed to baking delicious home made treats at an
                 affordable price.
-              </p>
-              <Row className="d-flex align-items-center justify-content-center">
-                <Col md={4}>
+              </h5>
+              <Row className={styles["hero-buttons-row"]}>
+                <Col>
                   <Link to="/Menu">
                     <Button
-                      className="btn btn-primary btn-lg mb-2"
+                      className={`m-4 btn btn-primary btn-lg ${styles.buttons}`}
                       variant="primary"
                       href="/Menu"
                     >
                       Menu
                     </Button>
                   </Link>
-                </Col>
 
-                <Col md={4}>
                   <Link to="/Contact">
                     <Button
-                      className="btn btn-primary btn-lg mb-2"
+                      className={`m-4 btn btn-primary btn-lg ${styles.buttons}`}
                       variant="primary"
+                      href="/Contact"
                     >
                       Contact
                     </Button>
@@ -53,19 +57,22 @@ export const Home = () => {
 
       <section className={styles.delivery}>
         <Container>
-          <Row className="d-flex align-items-center justify-content-center">
-            <Col md={9}>
+          <Row className="d-flex py-4 align-items-center justify-content-center">
+            <Col md={9} className="text-center">
               <h2>FREE DELIVERY to all address within Leeds!</h2>
             </Col>
-            <Col md={3}>
-            <Link to='/Delivery'>
-                  <Button
-                    className="btn btn-primary btn-lg mb-2"
-                    variant="primary"
-                  >
-                    Delivery
-                  </Button>
-                  </Link>
+            <Col
+              md={3}
+              className="d-flex align-items-center justify-content-center"
+            >
+              <Link to="/Delivery">
+                <Button
+                  className={`btn btn-primary btn-lg ${styles.buttons}`}
+                  variant="primary"
+                >
+                  Delivery
+                </Button>
+              </Link>
             </Col>
           </Row>
         </Container>

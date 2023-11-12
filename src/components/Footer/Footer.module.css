@@ -1,8 +1,27 @@
 @import '../../root.css';
 
-.footer.col {
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: left; */
-    text-align: left;
+
+.footer-container p {
+    margin:  2px
+}
+
+
+
+
+.footer-row {
+    display:flex;
+    /* background-color: blue; */
+}
+
+
+.footer-col {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1
 }

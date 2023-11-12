@@ -13,11 +13,12 @@ import { Link } from "react-router-dom";
 export const SingleSweet = () => {
   const { sweetName } = useParams();
   const sweetsInfoArrayDeepCopy = JSON.parse(JSON.stringify(sweetsInfoArray));
-
+  
   delete sweetsInfoArrayDeepCopy[sweetName];
-
+  
   const selectedSweetInfo = sweetsInfoArray[sweetName];
-
+  
+  console.log(selectedSweetInfo)
   return (
     <div className={styles["single-sweet"]}>
       <Container className={styles["single-sweet-main-container"]}>
@@ -33,9 +34,9 @@ export const SingleSweet = () => {
               })}
             </Carousel>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="d-flex flex-column justify-content-start align-items-start">
             <h1>{selectedSweetInfo.name}</h1>
-            <h3>{selectedSweetInfo.description}</h3>
+            <h5>{selectedSweetInfo.description}</h5>
             <p>Ingredients: {selectedSweetInfo.ingredients}</p>
             <h3>{selectedSweetInfo.price}</h3>
             <Link to="/Contact">
