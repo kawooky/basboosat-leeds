@@ -1,22 +1,36 @@
 {
   "files": {
-    "main.css": "/basboosat-leeds/static/css/main.26b3b4c5.css",
-    "main.js": "/basboosat-leeds/static/js/main.d1113f3b.js",
+    "main.css": "/basboosat-leeds/static/css/main.2a5d5f82.css",
+    "main.js": "/basboosat-leeds/static/js/main.a5ee3f48.js",
     "static/js/787.4f8bceeb.chunk.js": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js",
+    "static/media/baklava-nuts-2.png": "/basboosat-leeds/static/media/baklava-nuts-2.c3eb72b2411e56bcb70f.png",
+    "static/media/basboosa-3.png": "/basboosat-leeds/static/media/basboosa-3.9b03e91668c294e4979a.png",
     "static/media/baking-cookies-video.mp4": "/basboosat-leeds/static/media/baking-cookies-video.f2858f7fd1e99e56a3ac.mp4",
+    "static/media/basboosa-2.png": "/basboosat-leeds/static/media/basboosa-2.f00a27610714efd830c7.png",
+    "static/media/baklava-cream-2.png": "/basboosat-leeds/static/media/baklava-cream-2.64994bfc38105e7d8a41.png",
+    "static/media/basboosa-4.png": "/basboosat-leeds/static/media/basboosa-4.b991cec16d57ec517ad9.png",
+    "static/media/baklava-cream-3.png": "/basboosat-leeds/static/media/baklava-cream-3.5b49b798132413db7196.png",
     "static/media/contact-us-image.jpg": "/basboosat-leeds/static/media/contact-us-image.87ee731c21461c12442e.jpg",
     "static/media/menu-image.jpg": "/basboosat-leeds/static/media/menu-image.9f941516a1aff1eed838.jpg",
+    "static/media/baking-table.jpeg": "/basboosat-leeds/static/media/baking-table.5d282a0f639705588b91.jpeg",
+    "static/media/baklava-nuts-3.jpeg": "/basboosat-leeds/static/media/baklava-nuts-3.802b7da68ab06046b4ca.jpeg",
+    "static/media/values.jpeg": "/basboosat-leeds/static/media/values.62e8da75e9717741a9a8.jpeg",
     "static/media/map-of-leeds.jpg": "/basboosat-leeds/static/media/map-of-leeds.632603403e8d51767ff2.jpg",
+    "static/media/baklava-nuts-4.jpeg": "/basboosat-leeds/static/media/baklava-nuts-4.72277832ac7dcaffadea.jpeg",
+    "static/media/baklava-nuts-1.jpeg": "/basboosat-leeds/static/media/baklava-nuts-1.d73820dee9133dab402c.jpeg",
+    "static/media/basboosa-1.jpeg": "/basboosat-leeds/static/media/basboosa-1.7a661aa1b2881f1d19d4.jpeg",
+    "static/media/baklava-cream-1.jpeg": "/basboosat-leeds/static/media/baklava-cream-1.3513ca5222d5be094a23.jpeg",
+    "static/media/our-mission.jpeg": "/basboosat-leeds/static/media/our-mission.a624e1278804bc79e965.jpeg",
     "static/media/logo.png": "/basboosat-leeds/static/media/logo.457a6b4ead8af39e6c56.png",
     "static/media/logo-white.png": "/basboosat-leeds/static/media/logo-white.fae4224a5895b833dd35.png",
     "static/media/logo-black.png": "/basboosat-leeds/static/media/logo-black.26d5920f4e441b2fdb20.png",
     "index.html": "/basboosat-leeds/index.html",
-    "main.26b3b4c5.css.map": "/basboosat-leeds/static/css/main.26b3b4c5.css.map",
-    "main.d1113f3b.js.map": "/basboosat-leeds/static/js/main.d1113f3b.js.map",
+    "main.2a5d5f82.css.map": "/basboosat-leeds/static/css/main.2a5d5f82.css.map",
+    "main.a5ee3f48.js.map": "/basboosat-leeds/static/js/main.a5ee3f48.js.map",
     "787.4f8bceeb.chunk.js.map": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26b3b4c5.css",
-    "static/js/main.d1113f3b.js"
+    "static/css/main.2a5d5f82.css",
+    "static/js/main.a5ee3f48.js"
   ]
 }
