@@ -18,13 +18,13 @@ export const Contact = () => {
           <Col md={6} className={`py-5 ${styles["phone-col"]}`}>
             <h3>Preferred Method</h3>
             <h4 >
-              <AiOutlinePhone />+447803555789
+              +447803555789
             </h4>
           </Col>
           <Col md={6} className={`py-5 ${styles["email-col"]}`}>
             <h3>Alternatively</h3>
             <h4>
-              <MdAlternateEmail /> kawooky@gmail.com
+              kawooky@gmail.com
             </h4>
           </Col>
         </Row>
