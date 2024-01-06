@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/basboosat-leeds/static/css/main.2a5d5f82.css",
-    "main.js": "/basboosat-leeds/static/js/main.a5ee3f48.js",
+    "main.css": "/basboosat-leeds/static/css/main.2a31f234.css",
+    "main.js": "/basboosat-leeds/static/js/main.d19eba32.js",
     "static/js/787.4f8bceeb.chunk.js": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js",
     "static/media/baklava-nuts-2.png": "/basboosat-leeds/static/media/baklava-nuts-2.c3eb72b2411e56bcb70f.png",
     "static/media/basboosa-3.png": "/basboosat-leeds/static/media/basboosa-3.9b03e91668c294e4979a.png",
@@ -21,16 +21,15 @@
     "static/media/basboosa-1.jpeg": "/basboosat-leeds/static/media/basboosa-1.7a661aa1b2881f1d19d4.jpeg",
     "static/media/baklava-cream-1.jpeg": "/basboosat-leeds/static/media/baklava-cream-1.3513ca5222d5be094a23.jpeg",
     "static/media/our-mission.jpeg": "/basboosat-leeds/static/media/our-mission.a624e1278804bc79e965.jpeg",
-    "static/media/logo.png": "/basboosat-leeds/static/media/logo.457a6b4ead8af39e6c56.png",
     "static/media/logo-white.png": "/basboosat-leeds/static/media/logo-white.fae4224a5895b833dd35.png",
     "static/media/logo-black.png": "/basboosat-leeds/static/media/logo-black.26d5920f4e441b2fdb20.png",
     "index.html": "/basboosat-leeds/index.html",
-    "main.2a5d5f82.css.map": "/basboosat-leeds/static/css/main.2a5d5f82.css.map",
-    "main.a5ee3f48.js.map": "/basboosat-leeds/static/js/main.a5ee3f48.js.map",
+    "main.2a31f234.css.map": "/basboosat-leeds/static/css/main.2a31f234.css.map",
+    "main.d19eba32.js.map": "/basboosat-leeds/static/js/main.d19eba32.js.map",
     "787.4f8bceeb.chunk.js.map": "/basboosat-leeds/static/js/787.4f8bceeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a5d5f82.css",
-    "static/js/main.a5ee3f48.js"
+    "static/css/main.2a31f234.css",
+    "static/js/main.d19eba32.js"
   ]
 }
