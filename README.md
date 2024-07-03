@@ -1,5 +1,3 @@
-Please note this project is currently a template and ***Unfinished***.
-
 This project was created using React and Bootstrap.
 
 The project was created to advertise my father's small desert company which he runs from home.
